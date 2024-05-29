@@ -113,6 +113,7 @@ public class BasicDemo1 {
     }
 }
 /**
+ * https://blog.csdn.net/huxiang19851114/article/details/114079324
 15/12/02 19:14:04 INFO zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
 15/12/02 19:14:04 INFO zookeeper.ZooKeeper: Client environment:host.name=husy
 15/12/02 19:14:04 INFO zookeeper.ZooKeeper: Client environment:java.version=1.8.0_66
