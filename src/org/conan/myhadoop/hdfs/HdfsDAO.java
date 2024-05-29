@@ -22,6 +22,8 @@ import org.apache.hadoop.mapred.JobConf;
 public class HdfsDAO {
 	//修改成自己的HDFS主机地址
 	private static final String HDFS = "hdfs://centos:9000/";
+	private String hdfsPath;
+	private Configuration conf;
 	/**
 	 * 两个构造器
 	 * @param conf
@@ -35,8 +37,7 @@ public class HdfsDAO {
 		this.conf = conf;
 	}
 
-	private String hdfsPath;
-	private Configuration conf;
+
 	/**
 	 * 测试方法入口
 	 */
